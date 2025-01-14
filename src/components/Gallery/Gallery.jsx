@@ -43,7 +43,7 @@ const Gallery = () => {
       </div >
       <div className={`w-full h-nonavbarheight bg-[#00000096] grid place-content-center fixed top-[75px] z-30 ${overlay}`}>
         <div onClick={() => setOverlay('hidden')} className="w-full h-full absolute z-40"></div>
-        <div className="h-[80vh] aspect-video flex relative z-50 rounded-2xl overflow-hidden">
+        <div className="h-[80vh] aspect-video flex relative z-50 rounded-2xl overflow-hidden animate-popup">
           <div onClick={handleLeft} className="w-16 h-full bg-[#1360A5] text-6xl text-white border-r-4 grid place-content-center cursor-pointer select-none">&lt;</div>
           <img className="w-full h-full object-cover" src={gallery.photos[position]} alt="Memories" />
           <div onClick={handleRight} className="w-16 h-full bg-[#1360A5] text-6xl text-white border-l-4 grid place-content-center cursor-pointer select-none">&gt;</div>

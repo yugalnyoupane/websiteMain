@@ -1,5 +1,5 @@
 import {NavLink} from 'react-router-dom'
-import placeHolderImage from "../../images/assests/PlaceHolderImage.jpeg"
+import placeHolderImage from "../../images/assets/PlaceHolderImage.jpeg"
 import HomeTestimonialsTemplate from "./HomeTestimonialsTemplate"
 import HomeSponsor from './HomeSponsor'
 

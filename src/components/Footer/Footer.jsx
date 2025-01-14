@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom"
-import logo from '../../images/assests/logoBlackVariant.png'
-import facebook from '../../images/assests/facebook.png'
-import instagram from '../../images/assests/instagram.png'
-import linkedin from '../../images/assests/linkedin.png'
-import gps from '../../images/assests/gps.png'
-import mail from '../../images/assests/mail.png'
+import logo from '../../images/assets/logoBlackVariant.png'
+import facebook from '../../images/assets/facebook.png'
+import instagram from '../../images/assets/instagram.png'
+import linkedin from '../../images/assets/linkedin.png'
+import gps from '../../images/assets/gps.png'
+import mail from '../../images/assets/mail.png'
 import pages from '../../constants/pages'
 
 const Footer = () => {

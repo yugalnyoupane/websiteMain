@@ -13,7 +13,8 @@ module.exports = {
         'customborder' : '42% 56% 72% 28% / 42% 42% 56% 48%'
       },
       animation: {
-        'change' : 'change 10s linear infinite'
+        'change' : 'change 10s linear infinite',
+        'popup' : 'popup .2s forwards'
       },
       transitionProperty: {
         'hover' : 'all .5s ease'
@@ -29,6 +30,14 @@ module.exports = {
           '66%': {
             'border-radius': '100% 56% 56% 100% / 100% 100% 56% 56%'
           },
+        },
+        popup: {
+          'from': {
+            'transform': 'scale(.75)'
+          },
+          'to': {
+            'transform': 'scale(1)'
+          }
         }
       },
       width: {
