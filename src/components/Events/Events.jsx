@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import events from '../../constants/events'
-import close from '../../images/assests/close.png'
+import close from '../../images/assets/close.png'
 
 const Events = () => {
   const [overlay, setOverlay] = useState('hidden')
@@ -36,7 +36,7 @@ const Events = () => {
       </div>
       <div className={`w-full h-nonavbarheight bg-[#00000096] grid place-content-center fixed top-[75px] z-30 ${overlay}`}>
         <div onClick={() => setOverlay('hidden')} className="w-full h-full absolute z-40"></div>
-        <div className="w-[65vw] h-[80vh] bg-[#90C3F6] rounded-xl relative z-50 text-white overflow-hidden">
+        <div className="w-[65vw] h-[80vh] bg-[#90C3F6] rounded-xl relative z-50 text-white overflow-hidden animate-popup">
           <div className='relative'>
             <img onClick={() => setOverlay('hidden')} className="w-6 absolute top-1/2 -translate-y-1/2 right-7 cursor-pointer" src={close} alt="closeBtn" />
             <h1 className="text-3xl text-center font-bold leading-[70px] bg-[#1360A5AB] border-b-4">{event.title}</h1>
