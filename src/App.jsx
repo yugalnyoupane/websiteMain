@@ -13,7 +13,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 const App = () => {
     return (
         <Router>
-            <Navbar />
+            {/* <Navbar /> */}
             <Routes>
                 <Route path="/" Component={Home}></Route>
                 <Route path="/about" Component={About}></Route>

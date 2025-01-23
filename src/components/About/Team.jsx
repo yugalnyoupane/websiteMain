@@ -1,14 +1,11 @@
-import React from 'react'
-
-
-const Team = ({image,Name,Role}) => {
+const Team = ({ image, Role, Name }) => {
   return (
-    <div className="flex flex-col items-center w-1/5 h-full mx-10 rounded-2xl">
-          <img className='w-full h-full mb-5 rounded-3xl' src={image} alt="" />
-          <h1 className='text-3xl font-AboutTeamFontWeight'>{Name}</h1>
-          <p className='text-xl'>{Role}</p>
-      </div>
-  )
-}
+    <div className="flex flex-col items-center justify-center text-center">
+      <img src={image} alt={Name} className="w-24 h-24 rounded-full mb-2" />
+      <p className="font-medium text-lg">{Name}</p>
+      <p className="text-sm text-gray-500">{Role}</p>
+    </div>
+  );
+};
 
-export default Team
+export default Team;
